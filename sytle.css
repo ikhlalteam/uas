@@ -1,0 +1,110 @@
+input[type="text"],
+        input[type="password"],
+        input[type="date"],
+        select {
+            border-radius: 15px;
+            padding: 12px 24px;
+            text-align: left;
+        }
+
+select option[value="admin"] {
+            font-size: 30px;
+            color: yellow;
+        }
+        select option[value="user"] {
+            font-size: 30px;
+            color: green;
+        }
+
+body {
+    background-image: url("https://c1.wallpaperflare.com/preview/917/425/277/library-building-interior-library-interior-book.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: yellow;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: yellow;
+}
+form {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+table {
+    width: 95%;
+    border-collapse: collapse;
+
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+
+}
+
+th {
+    background-color: green;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: white;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-save {
+    background-color: green;
+    padding: 15px 35px;
+    font-size: 30px;
+}
+
+.btn-delete {
+    background-color: red;
+}
+
+
+.btn-edit {
+    background-color: blue;
+}
+
+.logout {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.logout a {
+    background-color: red;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 30px;
+    text-decoration: none;
+}
